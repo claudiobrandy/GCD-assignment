@@ -30,13 +30,15 @@ No.|Variable|Definition
 24 |"tBodyGyro_std_X"|gyroscope X-axial raw signals mean
 25 |"tBodyGyro_std_Y"|gyroscope Y-axial raw signals mean
 26 |"tBodyGyro_std_Z"|gyroscope Z-axial raw signals mean
+---|------------------|------------------------
+
 27 |"tBodyGyroJerk_mean_X"  |
 28 |"tBodyGyroJerk_mean_Y"  |
 29 |"tBodyGyroJerk_mean_Z"  |    Jerk values for variables 21 to 26
 30 |"tBodyGyroJerk_std_X"   |
 31 |"tBodyGyroJerk_std_Y"   |
 32 |"tBodyGyroJerk_std_Z"   |
----|--------|----------
+---|------------------|------------------------
 33 |"tBodyAccMag_mean"       |
 34 |"tBodyAccMag_std"         |
 35 |"tGravityAccMag_mean"     |
@@ -47,98 +49,54 @@ No.|Variable|Definition
 40 |"tBodyGyroMag_std"        |
 41 |"tBodyGyroJerkMag_mean"   |
 42 |"tBodyGyroJerkMag_std"    |
----|--------|----------
+---|------------------|------------------------
 43 |"fBodyAcc_mean_X"         |
-
 44 |"fBodyAcc_mean_Y"         |
-
 45 |"fBodyAcc_mean_Z"         |
-
 46 |"fBodyAcc_std_X"          |
-
 47 |"fBodyAcc_std_Y"          |
-
 48 |"fBodyAcc_std_Z"          |
-
-49 |"fBodyAcc_meanFreq_X"                        |
-
-50 |"fBodyAcc_meanFreq_Y"                        |
-
-51 |"fBodyAcc_meanFreq_Z"                        |
-
-52 |"fBodyAccJerk_mean_X"                        |
-
-53 |"fBodyAccJerk_mean_Y"                        |
-
-54 |"fBodyAccJerk_mean_Z"                        |
-
-55 |"fBodyAccJerk_std_X"                         |
-
-56 |"fBodyAccJerk_std_Y"                         |
-
-57 |"fBodyAccJerk_std_Z"                         |
-
-58 |"fBodyAccJerk_meanFreq_X"                    |
-
-59 |"fBodyAccJerk_meanFreq_Y"                    |
-
-60 |"fBodyAccJerk_meanFreq_Z"                    |
-
-61 |"fBodyGyro_mean_X"                           |  FFT applied to previous variables
-
-62 |"fBodyGyro_mean_Y"                           |    values are in the frequency domain
-
-63 |"fBodyGyro_mean_Z"                           |    instead of the time domain
-
-64 |"fBodyGyro_std_X"                            |
-
-65 |"fBodyGyro_std_Y"                            |
-
-66 |"fBodyGyro_std_Z"                            |
-
-67 |"fBodyGyro_meanFreq_X"                       |
-
-68 |"fBodyGyro_meanFreq_Y"                       |
-
-69 |"fBodyGyro_meanFreq_Z"                       |
-
-70 |"fBodyAccMag_mean"                           |
-
-71 |"fBodyAccMag_std"                            |
-
-72 |"fBodyAccMag_meanFreq"                       |
-
-73 |"fBodyBodyAccJerkMag_mean"                   |
-
-74 |"fBodyBodyAccJerkMag_std"                    |
-
-75 |"fBodyBodyAccJerkMag_meanFreq"               |
-
-76 |"fBodyBodyGyroMag_mean"                      |
-
-77 |"fBodyBodyGyroMag_std"                       |
-
-78 |"fBodyBodyGyroMag_meanFreq"                  |
-
-79 |"fBodyBodyGyroJerkMag_mean"                  |
-
-80 |"fBodyBodyGyroJerkMag_std"                   |
-
-81 |"fBodyBodyGyroJerkMag_meanFreq"              L
-
-82 |"angletBodyAccMean_gravity"                  T
-
-83 |"angletBodyAccJerkMean_gravityMean"          |
-
-84 |"angletBodyGyroMean_gravityMean"             |
-
-85 |"angletBodyGyroJerkMean_gravityMean"         |
-
-86 |"angleX_gravityMean"                         |
-
-87 |"angleY_gravityMean"                         |
-
-88 |"angleZ_gravityMean"                         L
+49 |"fBodyAcc_meanFreq_X"         |
+50 |"fBodyAcc_meanFreq_Y"         |
+51 |"fBodyAcc_meanFreq_Z"         |
+52 |"fBodyAccJerk_mean_X"         |
+53 |"fBodyAccJerk_mean_Y"         |
+54 |"fBodyAccJerk_mean_Z"         |
+55 |"fBodyAccJerk_std_X"          |
+56 |"fBodyAccJerk_std_Y"          |
+57 |"fBodyAccJerk_std_Z"          |
+58 |"fBodyAccJerk_meanFreq_X"     |
+59 |"fBodyAccJerk_meanFreq_Y"     |
+60 |"fBodyAccJerk_meanFreq_Z"     |
+61 |"fBodyGyro_mean_X"            |  FFT applied to previous variables
+62 |"fBodyGyro_mean_Y"            |    values are in the frequency domain
+63 |"fBodyGyro_mean_Z"            |    instead of the time domain
+64 |"fBodyGyro_std_X"             |
+65 |"fBodyGyro_std_Y"             |
+66 |"fBodyGyro_std_Z"             |
+67 |"fBodyGyro_meanFreq_X"        |
+68 |"fBodyGyro_meanFreq_Y"        |
+69 |"fBodyGyro_meanFreq_Z"        |
+70 |"fBodyAccMag_mean"            |
+71 |"fBodyAccMag_std"             |
+72 |"fBodyAccMag_meanFreq"        |
+73 |"fBodyBodyAccJerkMag_mean"    |
+74 |"fBodyBodyAccJerkMag_std"     |
+75 |"fBodyBodyAccJerkMag_meanFreq"|
+76 |"fBodyBodyGyroMag_mean"       |
+77 |"fBodyBodyGyroMag_std"        |
+78 |"fBodyBodyGyroMag_meanFreq"   |
+79 |"fBodyBodyGyroJerkMag_mean"   |
+80 |"fBodyBodyGyroJerkMag_std"    |
+81 |"fBodyBodyGyroJerkMag_meanFreq"|
+---|------------------|------------------------
+82 |"angletBodyAccMean_gravity"    |
+83 |"angletBodyAccJerkMean_gravityMean"   |
+84 |"angletBodyGyroMean_gravityMean"      |
+85 |"angletBodyGyroJerkMean_gravityMean"  |
+86 |"angleX_gravityMean"                  |
+87 |"angleY_gravityMean"                  |
+88 |"angleZ_gravityMean"                  |
 
 
 ### The Original Data
