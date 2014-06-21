@@ -4,182 +4,186 @@
 
 No.|Variable|Definition
 ---|--------|----------
-a|b|c
-1  "Subject": identifies each of the 30 subjects in the experiment
 
-2  "Activity": name of each of the 6 summarized activities for the subject
+1  |"Subject"|identifies each of the 30 subjects in the experiment
 
-3  "tBodyAcc_mean_X" body accelerometer X-axial raw signals mean
+2  |"Activity"|name of each of the 6 summarized activities for the subject
 
-4  "tBodyAcc_mean_Y" body accelerometer Y-axial raw signals mean
+3  |"tBodyAcc_mean_X"|body accelerometer X-axial raw signals mean
 
-5  "tBodyAcc_mean_Z" body accelerometer Z-axial raw signals mean
+4  |"tBodyAcc_mean_Y"|body accelerometer Y-axial raw signals mean
 
-6  "tBodyAcc_std_X" body accelerometer X-axial raw signals sdev
+5  |"tBodyAcc_mean_Z"|body accelerometer Z-axial raw signals mean
 
-7  "tBodyAcc_std_Y" body accelerometer Y-axial raw signals sdev
+6  |"tBodyAcc_std_X"|body accelerometer X-axial raw signals sdev
 
-8  "tBodyAcc_std_Z" body accelerometer Z-axial raw signals sdev
+7  |"tBodyAcc_std_Y"|body accelerometer Y-axial raw signals sdev
 
-9  "tGravityAcc_mean_X" gravity accelerometer X-axial raw signals mean
+8  |"tBodyAcc_std_Z"|body accelerometer Z-axial raw signals sdev
 
-10 "tGravityAcc_mean_Y" gravity accelerometer Y-axial raw signals mean
+9  |"tGravityAcc_mean_X"|gravity accelerometer X-axial raw signals mean
 
-11 "tGravityAcc_mean_Z" gravity accelerometer Z-axial raw signals mean
+10 |"tGravityAcc_mean_Y"|gravity accelerometer Y-axial raw signals mean
 
-12 "tGravityAcc_std_X" gravity accelerometer X-axial raw signals sdev
+11 |"tGravityAcc_mean_Z"|gravity accelerometer Z-axial raw signals mean
 
-13 "tGravityAcc_std_Y" gravity accelerometer Y-axial raw signals sdev
+12 |"tGravityAcc_std_X"|gravity accelerometer X-axial raw signals sdev
 
-14 "tGravityAcc_std_Z" gravity accelerometer Z-axial raw signals sdev
+13 |"tGravityAcc_std_Y"|gravity accelerometer Y-axial raw signals sdev
 
-15 "tBodyAccJerk_mean_X"    T
+14 |"tGravityAcc_std_Z"|gravity accelerometer Z-axial raw signals sdev
 
-16 "tBodyAccJerk_mean_Y"    |
+15 |"tBodyAccJerk_mean_X"|   
 
-17 "tBodyAccJerk_mean_Z"    |    Jerk values for variables 3 to 8
+16 |"tBodyAccJerk_mean_Y"    |
 
-18 "tBodyAccJerk_std_X"     |
+17 |"tBodyAccJerk_mean_Z"    |    Jerk values for variables 3 to 8
 
-19 "tBodyAccJerk_std_Y"     |
+18 |"tBodyAccJerk_std_X"     |
 
-20 "tBodyAccJerk_std_Z"     L
+19 |"tBodyAccJerk_std_Y"     |
 
-21 "tBodyGyro_mean_X" gyroscope X-axial raw signals mean
+20 |"tBodyAccJerk_std_Z" |
 
-22 "tBodyGyro_mean_Y" gyroscope Y-axial raw signals mean
+21 |"tBodyGyro_mean_X"|gyroscope X-axial raw signals mean
 
-23 "tBodyGyro_mean_Z" gyroscope Z-axial raw signals mean
+22 |"tBodyGyro_mean_Y"|gyroscope Y-axial raw signals mean
 
-24 "tBodyGyro_std_X" gyroscope X-axial raw signals mean
+23 |"tBodyGyro_mean_Z"|gyroscope Z-axial raw signals mean
 
-25 "tBodyGyro_std_Y" gyroscope Y-axial raw signals mean
+24 |"tBodyGyro_std_X"|gyroscope X-axial raw signals mean
 
-26 "tBodyGyro_std_Z" gyroscope Z-axial raw signals mean
+25 |"tBodyGyro_std_Y"|gyroscope Y-axial raw signals mean
 
-27 "tBodyGyroJerk_mean_X"  T
+26 |"tBodyGyro_std_Z"|gyroscope Z-axial raw signals mean
 
-28 "tBodyGyroJerk_mean_Y"  |
+27 |"tBodyGyroJerk_mean_X"  |
 
-29 "tBodyGyroJerk_mean_Z"  |    Jerk values for variables 21 to 26
+28 |"tBodyGyroJerk_mean_Y"  |
 
-30 "tBodyGyroJerk_std_X"   |
+29 |"tBodyGyroJerk_mean_Z"  |    Jerk values for variables 21 to 26
 
-31 "tBodyGyroJerk_std_Y"   |
+30 |"tBodyGyroJerk_std_X"   |
 
-32 "tBodyGyroJerk_std_Z"   L
+31 |"tBodyGyroJerk_std_Y"   |
 
-33 "tBodyAccMag_mean"        T
+32 |"tBodyGyroJerk_std_Z"   |
 
-34 "tBodyAccMag_std"         |
+---|--------|----------
 
-35 "tGravityAccMag_mean"     |
+33 |"tBodyAccMag_mean"       |
 
-36 "tGravityAccMag_std"      |    Magnitudes of the 3-dimensional signals 
+34 |"tBodyAccMag_std"         |
 
-37 "tBodyAccJerkMag_mean"    |
+35 |"tGravityAccMag_mean"     |
 
-38 "tBodyAccJerkMag_std"     |
+36 |"tGravityAccMag_std"      |    Magnitudes of the 3-dimensional signals 
 
-39 "tBodyGyroMag_mean"       |
+37 |"tBodyAccJerkMag_mean"    |
 
-40 "tBodyGyroMag_std"        |
+38 |"tBodyAccJerkMag_std"     |
 
-41 "tBodyGyroJerkMag_mean"   |
+39 |"tBodyGyroMag_mean"       |
 
-42 "tBodyGyroJerkMag_std"    L
+40 |"tBodyGyroMag_std"        |
 
-43 "fBodyAcc_mean_X"                            T
+41 |"tBodyGyroJerkMag_mean"   |
 
-44 "fBodyAcc_mean_Y"                            |
+42 |"tBodyGyroJerkMag_std"    |
 
-45 "fBodyAcc_mean_Z"                            |
+---|--------|----------
 
-46 "fBodyAcc_std_X"                             |
+43 |"fBodyAcc_mean_X"         |
 
-47 "fBodyAcc_std_Y"                             |
+44 |"fBodyAcc_mean_Y"         |
 
-48 "fBodyAcc_std_Z"                             |
+45 |"fBodyAcc_mean_Z"         |
 
-49 "fBodyAcc_meanFreq_X"                        |
+46 |"fBodyAcc_std_X"          |
 
-50 "fBodyAcc_meanFreq_Y"                        |
+47 |"fBodyAcc_std_Y"          |
 
-51 "fBodyAcc_meanFreq_Z"                        |
+48 |"fBodyAcc_std_Z"          |
 
-52 "fBodyAccJerk_mean_X"                        |
+49 |"fBodyAcc_meanFreq_X"                        |
 
-53 "fBodyAccJerk_mean_Y"                        |
+50 |"fBodyAcc_meanFreq_Y"                        |
 
-54 "fBodyAccJerk_mean_Z"                        |
+51 |"fBodyAcc_meanFreq_Z"                        |
 
-55 "fBodyAccJerk_std_X"                         |
+52 |"fBodyAccJerk_mean_X"                        |
 
-56 "fBodyAccJerk_std_Y"                         |
+53 |"fBodyAccJerk_mean_Y"                        |
 
-57 "fBodyAccJerk_std_Z"                         |
+54 |"fBodyAccJerk_mean_Z"                        |
 
-58 "fBodyAccJerk_meanFreq_X"                    |
+55 |"fBodyAccJerk_std_X"                         |
 
-59 "fBodyAccJerk_meanFreq_Y"                    |
+56 |"fBodyAccJerk_std_Y"                         |
 
-60 "fBodyAccJerk_meanFreq_Z"                    |
+57 |"fBodyAccJerk_std_Z"                         |
 
-61 "fBodyGyro_mean_X"                           |  FFT applied to previous variables
+58 |"fBodyAccJerk_meanFreq_X"                    |
 
-62 "fBodyGyro_mean_Y"                           |    values are in the frequency domain
+59 |"fBodyAccJerk_meanFreq_Y"                    |
 
-63 "fBodyGyro_mean_Z"                           |    instead of the time domain
+60 |"fBodyAccJerk_meanFreq_Z"                    |
 
-64 "fBodyGyro_std_X"                            |
+61 |"fBodyGyro_mean_X"                           |  FFT applied to previous variables
 
-65 "fBodyGyro_std_Y"                            |
+62 |"fBodyGyro_mean_Y"                           |    values are in the frequency domain
 
-66 "fBodyGyro_std_Z"                            |
+63 |"fBodyGyro_mean_Z"                           |    instead of the time domain
 
-67 "fBodyGyro_meanFreq_X"                       |
+64 |"fBodyGyro_std_X"                            |
 
-68 "fBodyGyro_meanFreq_Y"                       |
+65 |"fBodyGyro_std_Y"                            |
 
-69 "fBodyGyro_meanFreq_Z"                       |
+66 |"fBodyGyro_std_Z"                            |
 
-70 "fBodyAccMag_mean"                           |
+67 |"fBodyGyro_meanFreq_X"                       |
 
-71 "fBodyAccMag_std"                            |
+68 |"fBodyGyro_meanFreq_Y"                       |
 
-72 "fBodyAccMag_meanFreq"                       |
+69 |"fBodyGyro_meanFreq_Z"                       |
 
-73 "fBodyBodyAccJerkMag_mean"                   |
+70 |"fBodyAccMag_mean"                           |
 
-74 "fBodyBodyAccJerkMag_std"                    |
+71 |"fBodyAccMag_std"                            |
 
-75 "fBodyBodyAccJerkMag_meanFreq"               |
+72 |"fBodyAccMag_meanFreq"                       |
 
-76 "fBodyBodyGyroMag_mean"                      |
+73 |"fBodyBodyAccJerkMag_mean"                   |
 
-77 "fBodyBodyGyroMag_std"                       |
+74 |"fBodyBodyAccJerkMag_std"                    |
 
-78 "fBodyBodyGyroMag_meanFreq"                  |
+75 |"fBodyBodyAccJerkMag_meanFreq"               |
 
-79 "fBodyBodyGyroJerkMag_mean"                  |
+76 |"fBodyBodyGyroMag_mean"                      |
 
-80 "fBodyBodyGyroJerkMag_std"                   |
+77 |"fBodyBodyGyroMag_std"                       |
 
-81 "fBodyBodyGyroJerkMag_meanFreq"              L
+78 |"fBodyBodyGyroMag_meanFreq"                  |
 
-82 "angletBodyAccMean_gravity"                  T
+79 |"fBodyBodyGyroJerkMag_mean"                  |
 
-83 "angletBodyAccJerkMean_gravityMean"          |
+80 |"fBodyBodyGyroJerkMag_std"                   |
 
-84 "angletBodyGyroMean_gravityMean"             |
+81 |"fBodyBodyGyroJerkMag_meanFreq"              L
 
-85 "angletBodyGyroJerkMean_gravityMean"         |
+82 |"angletBodyAccMean_gravity"                  T
 
-86 "angleX_gravityMean"                         |
+83 |"angletBodyAccJerkMean_gravityMean"          |
 
-87 "angleY_gravityMean"                         |
+84 |"angletBodyGyroMean_gravityMean"             |
 
-88 "angleZ_gravityMean"                         L
+85 |"angletBodyGyroJerkMean_gravityMean"         |
+
+86 |"angleX_gravityMean"                         |
+
+87 |"angleY_gravityMean"                         |
+
+88 |"angleZ_gravityMean"                         L
 
 
 ### The Original Data
