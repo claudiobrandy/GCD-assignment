@@ -31,7 +31,6 @@ No.|Variable|Definition
 25 |"tBodyGyro_std_Y"|gyroscope Y-axial raw signals mean
 26 |"tBodyGyro_std_Z"|gyroscope Z-axial raw signals mean
 ---|------------------|------------------------
-
 27 |"tBodyGyroJerk_mean_X"  |
 28 |"tBodyGyroJerk_mean_Y"  |
 29 |"tBodyGyroJerk_mean_Z"  |    Jerk values for variables 21 to 26
