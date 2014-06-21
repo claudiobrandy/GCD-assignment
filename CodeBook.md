@@ -70,8 +70,8 @@ No.|Variable|Definition
 59 |"fBodyAccJerk_meanFreq_Y"     |
 60 |"fBodyAccJerk_meanFreq_Z"     |
 61 |"fBodyGyro_mean_X"            |  FFT applied to previous variables
-62 |"fBodyGyro_mean_Y"            |    values are in the frequency domain
-63 |"fBodyGyro_mean_Z"            |    instead of the time domain
+62 |"fBodyGyro_mean_Y"            |    (values are in the frequency domain
+63 |"fBodyGyro_mean_Z"            |    instead of the time domain)
 64 |"fBodyGyro_std_X"             |
 65 |"fBodyGyro_std_Y"             |
 66 |"fBodyGyro_std_Z"             |
@@ -167,7 +167,7 @@ fBodyGyroJerkMag
 
 
 
-The set of variables that were estimated from these signals are: 
+#### The set of variables that were estimated from these signals are: 
 
 
 mean(): Mean value
@@ -205,7 +205,7 @@ bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of e
 angle(): Angle between two vectors.
 
 
-Additional vectors obtained by averaging the signals in a signal window sample. These are
+#### Additional vectors obtained by averaging the signals in a signal window sample. These are
 used on the angle() variable:
 
 gravityMean
