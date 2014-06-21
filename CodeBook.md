@@ -7,89 +7,47 @@ No.|Variable|Definition
 1  |"Subject"|identifies each of the 30 subjects in the experiment
 2  |"Activity"|name of each of the 6 summarized activities for the subject
 3  |"tBodyAcc_mean_X"|body accelerometer X-axial raw signals mean
-
 4  |"tBodyAcc_mean_Y"|body accelerometer Y-axial raw signals mean
-
 5  |"tBodyAcc_mean_Z"|body accelerometer Z-axial raw signals mean
-
 6  |"tBodyAcc_std_X"|body accelerometer X-axial raw signals sdev
-
 7  |"tBodyAcc_std_Y"|body accelerometer Y-axial raw signals sdev
-
 8  |"tBodyAcc_std_Z"|body accelerometer Z-axial raw signals sdev
-
 9  |"tGravityAcc_mean_X"|gravity accelerometer X-axial raw signals mean
-
 10 |"tGravityAcc_mean_Y"|gravity accelerometer Y-axial raw signals mean
-
 11 |"tGravityAcc_mean_Z"|gravity accelerometer Z-axial raw signals mean
-
 12 |"tGravityAcc_std_X"|gravity accelerometer X-axial raw signals sdev
-
 13 |"tGravityAcc_std_Y"|gravity accelerometer Y-axial raw signals sdev
-
 14 |"tGravityAcc_std_Z"|gravity accelerometer Z-axial raw signals sdev
-
 15 |"tBodyAccJerk_mean_X"|   
-
 16 |"tBodyAccJerk_mean_Y"    |
-
 17 |"tBodyAccJerk_mean_Z"    |    Jerk values for variables 3 to 8
-
 18 |"tBodyAccJerk_std_X"     |
-
 19 |"tBodyAccJerk_std_Y"     |
-
 20 |"tBodyAccJerk_std_Z" |
-
 21 |"tBodyGyro_mean_X"|gyroscope X-axial raw signals mean
-
 22 |"tBodyGyro_mean_Y"|gyroscope Y-axial raw signals mean
-
 23 |"tBodyGyro_mean_Z"|gyroscope Z-axial raw signals mean
-
 24 |"tBodyGyro_std_X"|gyroscope X-axial raw signals mean
-
 25 |"tBodyGyro_std_Y"|gyroscope Y-axial raw signals mean
-
 26 |"tBodyGyro_std_Z"|gyroscope Z-axial raw signals mean
-
 27 |"tBodyGyroJerk_mean_X"  |
-
 28 |"tBodyGyroJerk_mean_Y"  |
-
 29 |"tBodyGyroJerk_mean_Z"  |    Jerk values for variables 21 to 26
-
 30 |"tBodyGyroJerk_std_X"   |
-
 31 |"tBodyGyroJerk_std_Y"   |
-
 32 |"tBodyGyroJerk_std_Z"   |
-
 ---|--------|----------
-
 33 |"tBodyAccMag_mean"       |
-
 34 |"tBodyAccMag_std"         |
-
 35 |"tGravityAccMag_mean"     |
-
 36 |"tGravityAccMag_std"      |    Magnitudes of the 3-dimensional signals 
-
 37 |"tBodyAccJerkMag_mean"    |
-
 38 |"tBodyAccJerkMag_std"     |
-
 39 |"tBodyGyroMag_mean"       |
-
 40 |"tBodyGyroMag_std"        |
-
 41 |"tBodyGyroJerkMag_mean"   |
-
 42 |"tBodyGyroJerkMag_std"    |
-
 ---|--------|----------
-
 43 |"fBodyAcc_mean_X"         |
 
 44 |"fBodyAcc_mean_Y"         |
