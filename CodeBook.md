@@ -30,17 +30,17 @@
 
 14 "tGravityAcc_std_Z" gravity accelerometer Z-axial raw signals sdev
 
-15 "tBodyAccJerk_mean_X"   T
+15 "tBodyAccJerk_mean_X"    T
 
-16 "tBodyAccJerk_mean_Y"   |
+16 "tBodyAccJerk_mean_Y"    |
 
-17 "tBodyAccJerk_mean_Z"   |    Jerk values for variables 3 to 8
+17 "tBodyAccJerk_mean_Z"    |    Jerk values for variables 3 to 8
 
-18 "tBodyAccJerk_std_X"    |
+18 "tBodyAccJerk_std_X"     |
 
-19 "tBodyAccJerk_std_Y"    |
+19 "tBodyAccJerk_std_Y"     |
 
-20 "tBodyAccJerk_std_Z"    L
+20 "tBodyAccJerk_std_Z"     L
 
 21 "tBodyGyro_mean_X" gyroscope X-axial raw signals mean
 
