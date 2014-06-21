@@ -1,12 +1,17 @@
-### GCD course final assignment Code Book
+## GCD course final assignment Code Book
 
 ### The Tidy Dataframe Variables
 
 1  "Subject": identifies each of the 30 subjects in the experiment
+
 2  "Activity": name of each of the 6 summarized activities for the subject
+
 3  "tBodyAcc_mean_X" body accelerometer X-axial raw signals mean
+
 4  "tBodyAcc_mean_Y" body accelerometer Y-axial raw signals mean
+
 5  "tBodyAcc_mean_Z" body accelerometer Z-axial raw signals mean
+
 6  "tBodyAcc_std_X" body accelerometer X-axial raw signals sdev
 7  "tBodyAcc_std_Y" body accelerometer Y-axial raw signals sdev
 8  "tBodyAcc_std_Z" body accelerometer Z-axial raw signals sdev
