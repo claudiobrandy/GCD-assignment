@@ -2,6 +2,9 @@
 
 ### The Tidy Dataframe Variables
 
+No.|Variable|Definition
+---|--------|----------
+a|b|c
 1  "Subject": identifies each of the 30 subjects in the experiment
 
 2  "Activity": name of each of the 6 summarized activities for the subject
