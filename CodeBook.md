@@ -1,4 +1,4 @@
-## GCD course final assignment Code Book
+## GCD course - Final assignment Code Book
 
 ### The Tidy Dataframe Variables
 
